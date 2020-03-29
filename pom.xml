@@ -11,7 +11,7 @@
 	<groupId>com.wipro</groupId>
 	<artifactId>DietSystem</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	
 	<name>DietSystem</name>
 	<description>Demo project for Spring Boot</description>
 
