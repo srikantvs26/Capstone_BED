@@ -38,7 +38,7 @@ import com.wipro.diet.app.repos.UserRepository;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://capstone-bed.herokuapp.com")
 public class ControllerDiet {
 	@Autowired
 	private UserRepository userR;
