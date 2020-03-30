@@ -22,7 +22,7 @@ INSERT INTO Newuser(email,fname,lname,age,gender,mobile,address,city,state,count
 
 
 
-INSERT INTO Monthlymeasures(id,fname,email,firstname,secondname,thirdname,zone) VALUES(-1,'Micheal','micheal.v@gmail.com','null','null','null',24);
+INSERT INTO Monthlymeasures(id,fname,email,firstname,secondname,thirdname,zone) VALUES(-1,'Martha','marthan@gmail.com','null','null','null',24);
 INSERT INTO Monthlymeasures(id,fname,email,firstname,secondname,thirdname,zone) VALUES(-2,'Jonas','jonask@gmail.com','null','null','null',24);
 INSERT INTO Monthlymeasures(id,fname,email,firstname,secondname,thirdname,zone) VALUES(-3,'Sumeet','sumeets@gmail.com','null','null','null',24);
 INSERT INTO Monthlymeasures(id,fname,email,firstname,secondname,thirdname,zone) VALUES(-4,'John','johndoe@gmail.com','null','null','null',26);
