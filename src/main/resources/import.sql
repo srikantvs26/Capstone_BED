@@ -2,7 +2,7 @@ INSERT INTO User(userid,fname,lname,email,password,type,division) VALUES('srikan
 INSERT INTO User(userid,fname,lname,email,password,type,division,doj) VALUES('johndoe','John','Doe','johndoe@gmail.com','user@123','user',26,'27/02/2020');
 INSERT INTO User(userid,fname,lname,email,password,type,division,doj) VALUES('janedoe','Jane','Doe','janedoe@gmail.com','user@123','user',26,'23/01/2020');
 INSERT INTO User(userid,fname,lname,email,password,type,division,doj) VALUES('ravikumar','Ravi','Kumar','ravikumar@gmail.com','motivator@123','motivator',26,'01/12/2019');
-INSERT INTO User(userid,fname,lname,email,password,type,division,doj) VALUES('marthan','Martha','N','marthan@gmail.com','user@123','user',24,'05/11/2019');
+INSERT INTO User(userid,fname,lname,email,password,type,division,doj) VALUES('marthan','Martha','N','marthan@gmail.com','user@123','user',24,'28/02/2019');
 INSERT INTO User(userid,fname,lname,email,password,type,division,doj) VALUES('jonask','Jonas','K','jonask@gmail.com','user@123','user',24,'10/01/2020');
 INSERT INTO User(userid,fname,lname,email,password,type,division,doj) VALUES('sumeets','Sumeet','Singh','sumeets@gmail.com','motivator@123','motivator',24,'15/12/2019');
 
