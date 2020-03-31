@@ -114,26 +114,16 @@ public class ControllerDiet {
 	public boolean approved(@RequestBody NewUser user) {
 
 		newUserR.setStatusForNewUser("approved", user.getEmail());
-		//String[] arr = user.getEmail().split("@");
-		//String id = arr[0];
-		//String alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-		//StringBuilder pass = new StringBuilder();
-		//Random rnd = new Random();
-		//while (pass.length() < 10) {
-		//	int index = (int) (rnd.nextFloat() * alpha.length());
-		//	pass.append(alpha.charAt(index));
-		//}
-		//String password = pass.toString();
-		float bmi = user.getWeight() / (user.getHeight() * (user.getHeight()));
+		float h=user.getHeight();
+		float w=user.getWeight();
+		float bmi = (w / (h*h))*10000f;
+		System.out.println("bmi"+bmi);
 		int div;
-		if (bmi > 25) {
+		if (bmi > 25.0f) {
 			div = 26;
 		} else {
 			div = 24;
 		}
-		
-	
-		
 		DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
 		Date d = new Date(System.currentTimeMillis());
 		User u = new User(user.getUserid(), user.getFname(), user.getLname(), user.getEmail(), user.getPassword(), "user", div, df.format(d));
